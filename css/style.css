@@ -5,11 +5,11 @@ body{
 
 .head{
     width: 200;
-    height: 100px;
+    height: 80px;
     background-color: white;
 }
 
-/* head */
+
 .logo{
     width: 50px;
 }
@@ -23,8 +23,9 @@ body{
 
 main{
     width: 600px;
+    height: 480px;
     background-color: white;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .add{
@@ -35,12 +36,14 @@ main{
 
 .Task{
     padding: 2px;
+    margin: 10px;
     background-color:#3da8f0 ;
     color: white;
 }
 
 .Section{
     padding: 2px;
+    margin: 10px;
     background-color: white;
     color: grey;
 }
@@ -48,6 +51,23 @@ main{
 ul {
     list-style-type: none;
     }
+
+    .check{
+        color: green;
+        border: 1.5px solid green;
+        border-radius: 20px;
+        font-weight: bold;
+
+    }
+
+    .cross{
+        color: red;
+        border: 1.5px solid red;
+        border-radius: 20px;
+        font-weight: bold;
+
+    }
+
     .editorial{
         background-color:#45abea ;
         padding: 5px;
